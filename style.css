@@ -1,0 +1,48 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@0;1&family=Poppins:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+ 
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #71b7ec, #9b59b6);
+}
+
+
+table{
+  position: absolute;
+  width: 70%;
+  height: 400px;
+  background: #fafafa;
+  text-align: center;
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0 2px 12px rgba(32, 32, 32, 3);
+  overflow: hidden;
+  border-collapse: collapse;
+  font-family: 'Lobster Two', cursive;
+font-family: 'Poppins', sans-serif;
+}
+th, td{
+  padding: 10px 15px;
+}
+td{
+  text-align: left;
+}
+th{
+  background: #1e1a2f;
+  color: #fafafa;
+  text-transform: uppercase;
+}
+
+tr:nth-child(odd){
+  background-color: #eeeeee;
+}
